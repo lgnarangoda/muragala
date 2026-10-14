@@ -1,0 +1,502 @@
+[
+  {
+    "id": "CBSL-BSP-LIFECYCLE",
+    "source": "CBSL Be Scam Proof",
+    "url": "https://www.cbsl.gov.lk/en/be-scam-proof-v3",
+    "date": "accessed 2026-10-14",
+    "scam_type": "all",
+    "summary_en": "CBSL describes every scam as five steps: attract the victim with an attractive offer by call, message, email, social media or ad; build trust with friendliness, false stories, testimonials or fake identities; create urgency or fear so the victim does not stop to check; ask for personal details, a money transfer, a link click or an advance fee; then take the money and disappear.",
+    "red_flags": [
+      "unsolicited attractive offer",
+      "fake testimonials or identities",
+      "urgency or fear",
+      "request for money, personal details, a link click or an advance fee"
+    ],
+    "advice_en": "Stop when you feel rushed and verify through official channels before doing anything."
+  },
+  {
+    "id": "CBSL-BSP-PROTECT",
+    "source": "CBSL Be Scam Proof",
+    "url": "https://www.cbsl.gov.lk/en/be-scam-proof-v3",
+    "date": "accessed 2026-10-14",
+    "scam_type": "all",
+    "summary_en": "CBSL's protection rules: verify any investment or offer before trusting it, never share PINs, OTPs or passwords, use only official websites and apps, be cautious of unsolicited offers that sound too good to be true, and report suspicious activity without delay.",
+    "red_flags": [
+      "request for PIN, OTP or password",
+      "offer that sounds too good to be true",
+      "link to an unofficial website or app"
+    ],
+    "advice_en": "Report pyramid schemes to the CBSL Financial Consumer Relations Department (fcrd@cbsl.lk, +94 11 247 7966) and unauthorized deposit-taking to the CBSL Department of Supervision of Non-Bank Financial Institutions (dsnbfi@cbsl.lk, +94 11 247 7504). The Be Scam Proof page also lists the CBSL hotline 1935."
+  },
+  {
+    "id": "CBSL-BSP-PYRAMID",
+    "source": "CBSL Be Scam Proof",
+    "url": "https://www.cbsl.gov.lk/en/be-scam-proof-v3",
+    "date": "accessed 2026-10-14",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "Pyramid schemes promise earnings that come mainly from recruiting new members, not from real sales or investments.",
+    "red_flags": [
+      "income mainly from recruiting others",
+      "joining or registration fee",
+      "unusually high promised returns"
+    ],
+    "advice_en": "Check the CBSL list of prohibited schemes before joining or paying. Taking part can itself be an offence."
+  },
+  {
+    "id": "CBSL-BSP-DEPOSIT",
+    "source": "CBSL Be Scam Proof",
+    "url": "https://www.cbsl.gov.lk/en/be-scam-proof-v3",
+    "date": "accessed 2026-10-14",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "Unauthorized deposit-taking means collecting money from the public as deposits without legal authority, often while promising unusually high returns.",
+    "red_flags": [
+      "company takes deposits but is not on CBSL licensed lists",
+      "unusually high interest or returns"
+    ],
+    "advice_en": "Place deposits only with banks and finance companies licensed by CBSL. Check the licensed lists on cbsl.gov.lk."
+  },
+  {
+    "id": "CBSL-BSP-DIGITAL",
+    "source": "CBSL Be Scam Proof",
+    "url": "https://www.cbsl.gov.lk/en/be-scam-proof-v3",
+    "date": "accessed 2026-10-14",
+    "scam_type": "otp_account_takeover",
+    "summary_en": "Digital scams use fake websites, messages, calls or online accounts to steal money, personal information or banking credentials.",
+    "red_flags": [
+      "link to a look-alike website",
+      "caller or message asking for banking details"
+    ],
+    "advice_en": "Use banking services only through the official app or website. Never enter card details or OTPs on a page opened from a message link."
+  },
+  {
+    "id": "CBSL-83C-2026-07",
+    "source": "CBSL Notice to General Public on Prohibited Pyramid Schemes",
+    "url": "https://www.cbsl.gov.lk/en/news/notice-to-general-public-on-prohibited-pyramid-schemes-20260701",
+    "date": "2026-07-01",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "Under Section 83C of the Banking Act, CBSL determined that Infinity Rover (Pvt) Ltd ran a prohibited scheme and republished its list of 25 prohibited companies and apps, including Tiens Lanka, Qnet/Questnet, MTFE, Sport Chain, OnmaxDT, SGO/sgomine.com and I.C.A.N Advertising.",
+    "red_flags": [
+      "company or app name on the CBSL prohibited list",
+      "earnings based on recruiting others"
+    ],
+    "advice_en": "If a company or app in the message is on the CBSL list, do not pay or join, and report it to CBSL."
+  },
+  {
+    "id": "CBSL-83C-2026-08-TM",
+    "source": "CBSL Notice on Prohibited Pyramid Schemes - TM App",
+    "url": "https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/press/pr/press_20260805_Notice_to_General_Public_on_Prohibited_Pyramid_Schemes_TM_app_e.pdf",
+    "date": "2026-08-05",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "CBSL determined under Section 83C of the Banking Act that TM App engaged in, conducted and promoted a prohibited scheme, adding it to the prohibited list.",
+    "red_flags": [
+      "TM App mentioned in an investment or earning offer"
+    ],
+    "advice_en": "Do not invest in or promote TM App."
+  },
+  {
+    "id": "CBSL-83C-PENALTY-2024",
+    "source": "CBSL Notice: Participating in pyramid schemes is a punishable offence",
+    "url": "https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/press/notices/notice_20240422_participating_in_pyramid_schemes_is_a_punishable_offence_e.pdf",
+    "date": "2024-04-22",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "Anyone who starts, offers, promotes, advertises, runs, finances or manages a scheme prohibited under Section 83C commits an offence, punishable by up to three years in prison, a fine of up to one million rupees, or both.",
+    "red_flags": [
+      "being asked to recruit friends or promote the scheme"
+    ],
+    "advice_en": "Do not join or promote such schemes. Recruiting others can itself be an offence."
+  },
+  {
+    "id": "CBSL-DEEPFAKE-2025-03",
+    "source": "CBSL warning on AI-generated videos misusing the Governor's image",
+    "url": "https://www.cbsl.gov.lk/en/node/18186",
+    "date": "2025-03-07",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "CBSL warned that AI-generated deepfake videos on Facebook showed the CBSL Governor endorsing investment schemes with extraordinary returns and sent viewers to a suspicious link. CBSL does not endorse any investment scheme.",
+    "red_flags": [
+      "video of an official or celebrity endorsing an investment",
+      "promise of extraordinary returns",
+      "external link to invest"
+    ],
+    "advice_en": "CBSL never endorses investment schemes. Verify on cbsl.gov.lk and CBSL's official social media pages."
+  },
+  {
+    "id": "CBSL-FBA-FREEZE-2026-09",
+    "source": "Daily Mirror report on CBSL freezing orders",
+    "url": "https://www.dailymirror.lk/breaking-news/CBSL-orders-asset-freeze-on-six-companies/108-350947",
+    "date": "2026-09-23",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "CBSL issued freezing orders under the Finance Business Act on six companies and their directors. It said four of them (Singhe Capital Investment Ltd, Pro Shop Advertising Holdings, Athens International Education Centre and Eyon Lanka Investment and Film Production International) accepted deposits or carried on finance business illegally; the other two are under investigation.",
+    "red_flags": [
+      "company accepting deposits without a CBSL licence"
+    ],
+    "advice_en": "Placing money with unauthorised institutions risks losing it. Report suspected illegal deposit-taking to CBSL."
+  },
+  {
+    "id": "CBSL-REGULATION-CLAIM-2026-06",
+    "source": "CBSL statement on a false claim of CBSL regulation",
+    "url": "https://www.cbsl.gov.lk/en/news/kasagala-green-plantations-e",
+    "date": "2026-06-12",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "CBSL publicly denied a company director's TV claim that his company was regulated by CBSL, called the claim misleading, and said it was investigating whether the company accepted public deposits in breach of the Finance Business Act.",
+    "red_flags": [
+      "investment company claims to be regulated by the Central Bank"
+    ],
+    "advice_en": "Do not rely on a company's claim of CBSL regulation. Check it yourself on CBSL's licensed-institution lists."
+  },
+  {
+    "id": "POL-2026-01-FAKE-ACCOUNTS",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "impersonation_official",
+    "summary_en": "Police warned of fake social media accounts that use the names and photos of well-known people or institutions to deceive the public.",
+    "red_flags": [
+      "unverified account using a famous name or logo",
+      "money request from such an account"
+    ],
+    "advice_en": "Check for official verified pages and confirm any money request through a trusted channel."
+  },
+  {
+    "id": "POL-2026-01-LOAN",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "loan_app",
+    "summary_en": "Instant or no-repayment loans advertised on Facebook or WhatsApp ask for a service or registration fee first and then give nothing. Others give a small loan, then demand very high interest and harass the borrower's family and friends.",
+    "red_flags": [
+      "fee before the loan is paid",
+      "instant loan with no documents",
+      "threats to contact family"
+    ],
+    "advice_en": "Borrow only from institutions regulated by CBSL."
+  },
+  {
+    "id": "POL-2026-01-PHISHING",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "otp_account_takeover",
+    "summary_en": "Fake links sent in the name of banks, telecom companies or delivery services through WhatsApp or Messenger are used to steal passwords, OTPs and banking details and then withdraw money.",
+    "red_flags": [
+      "link asking you to log in or update details",
+      "request for an OTP"
+    ],
+    "advice_en": "Do not click. Open the bank or company app or website yourself."
+  },
+  {
+    "id": "POL-2026-01-JOB",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "job_task",
+    "summary_en": "Fake online data-entry or work-from-home jobs promise unrealistically high pay and ask for registration or processing fees.",
+    "red_flags": [
+      "very high pay for simple online work",
+      "registration or processing fee"
+    ],
+    "advice_en": "Genuine employers do not charge you to start work."
+  },
+  {
+    "id": "POL-2026-01-ROMANCE",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "romance",
+    "summary_en": "Fake profiles on Facebook, Instagram, WhatsApp or Messenger build trust and then ask for money, often to release a gift parcel supposedly sent from abroad.",
+    "red_flags": [
+      "online partner never met in person",
+      "fee to release a gift parcel"
+    ],
+    "advice_en": "Never send money to someone you know only online."
+  },
+  {
+    "id": "POL-2026-01-INVEST",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "fake_investment_pyramid",
+    "summary_en": "Crypto or forex investment schemes promoted in Telegram channels and Facebook groups promise high returns and ask for registration fees, wallet transfers, referrals or advance payments.",
+    "red_flags": [
+      "Telegram or Facebook investment group",
+      "guaranteed high returns",
+      "referral bonuses"
+    ],
+    "advice_en": "Verify any investment offer and the company before paying anything."
+  },
+  {
+    "id": "POL-2026-01-LOTTERY",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "lottery_prize",
+    "summary_en": "Victims are told they won a large prize but must first pay tax or a processing fee. Scammers pose as prize officers on WhatsApp or by phone.",
+    "red_flags": [
+      "prize you did not enter for",
+      "fee or tax before the payout"
+    ],
+    "advice_en": "A real prize never needs an upfront payment."
+  },
+  {
+    "id": "POL-2026-01-SHOP",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "fake_online_shop",
+    "summary_en": "Fake Facebook pages or groups advertise goods that never arrive after payment. The seller insists on direct bank transfer and has no verifiable identity.",
+    "red_flags": [
+      "price far below market",
+      "bank transfer only, no cash on delivery",
+      "seller identity cannot be verified"
+    ],
+    "advice_en": "Buy from verified sellers and prefer cash on delivery or payment methods with buyer protection."
+  },
+  {
+    "id": "POL-2026-01-VULNERABLE",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "all",
+    "summary_en": "Police noted that elderly people are targeted through foreign-based online requests for help, and children through gaming top-up scams and fake free-skins links.",
+    "red_flags": [
+      "stranger abroad asking an elderly person for help or money",
+      "link offering free game items"
+    ],
+    "advice_en": "Family members should check unusual requests with elderly relatives and children."
+  },
+  {
+    "id": "POL-2026-01-SAFETY",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/01/12/9-common-online-scams-listed-by-sri-lanka-police/",
+    "date": "2026-01-12",
+    "scam_type": "all",
+    "summary_en": "Police advice: do not scan QR codes or install apps or browser extensions shared by strangers, never let others use your bank account, never disclose account numbers, passwords, PINs or OTPs, and verify the identity of anyone asking for money through a reliable channel.",
+    "red_flags": [
+      "request to use your bank account",
+      "QR code from a stranger",
+      "request to install an app or extension"
+    ],
+    "advice_en": "Report suspected fraud to the Cyber Crime Unit of the CID of Sri Lanka Police."
+  },
+  {
+    "id": "POL-2025-10-ACCOUNT-TAKEOVER",
+    "source": "Daily FT report on Sri Lanka Police warning",
+    "url": "https://www.ft.lk/news/Police-warn-of-rising-online-fraud-via-Telegram-WhatsApp/56-782686",
+    "date": "2025-10-08",
+    "scam_type": "otp_account_takeover",
+    "summary_en": "Police warned that criminals use fake links and QR codes to steal Telegram and WhatsApp logins, lock out the owner, and use the account to scam contacts, often with fake job offers or money requests.",
+    "red_flags": [
+      "money request from a known contact on chat",
+      "request to transfer money or use your account for someone else"
+    ],
+    "advice_en": "Even if a request comes from a friend, call them on a known number before sending money. Never share OTPs or login details."
+  },
+  {
+    "id": "POL-2026-03-COURIER",
+    "source": "Sri Lanka Police via Newswire",
+    "url": "https://www.newswire.lk/2026/03/27/fake-sms-links-police-warn-of-rising-scams-targeting-bank-accounts/",
+    "date": "2026-03-27",
+    "scam_type": "parcel_customs_fee",
+    "summary_en": "Police warned of SMS messages claiming a delivery problem or an invalid address, with a link to a fake look-alike website that steals card details.",
+    "red_flags": [
+      "SMS about a delivery problem with a link",
+      "message asking you to update your details"
+    ],
+    "advice_en": "Confirm orders by calling the company's official number. Never enter card details on a page opened from an SMS link."
+  },
+  {
+    "id": "POST-2026-03-FEE",
+    "source": "Hiru News report on Department of Posts warning",
+    "url": "https://hirunews.lk/goldfmnews/457028/postal-department-warns-of-surge-in-online-phishing-scams",
+    "date": "2026-03-31",
+    "scam_type": "parcel_customs_fee",
+    "summary_en": "The Department of Posts warned that SMS messages in its name say a payment is needed to receive a parcel and send people to a fake payment page. Card details entered there are used to withdraw money from bank accounts.",
+    "red_flags": [
+      "parcel fee request by SMS",
+      "payment page that is not the official website"
+    ],
+    "advice_en": "Do not pay parcel fees through SMS links."
+  },
+  {
+    "id": "CUSTOMS-2023-08",
+    "source": "Daily Mirror report on Sri Lanka Customs warning",
+    "url": "https://www.dailymirror.lk/print/front-page/SL-Customs-go-red-alert-on-financial-fraudsters-Do-Not-Transfer-Money-to-Clear-Goods-Gifts-Customs-Spokesman-warns/238-265673",
+    "date": "2023-08-21",
+    "scam_type": "parcel_customs_fee",
+    "summary_en": "Sri Lanka Customs warned that fraudsters pose as Customs officers and ask people to pay clearance charges into unknown bank accounts for gifts or goods supposedly sent from abroad. Customs never asks for deposits into such accounts.",
+    "red_flags": [
+      "caller claiming to be from Customs",
+      "gift from an online friend abroad",
+      "payment to a personal bank account"
+    ],
+    "advice_en": "Do not pay. Report the caller to the nearest police station."
+  },
+  {
+    "id": "DRP-2026-04",
+    "source": "Daily Mirror report on Department for Registration of Persons alert",
+    "url": "https://www.dailymirror.lk/breaking-news/Surge-in-scams-raises-alarm-over-financial-fraud-and-data-theft-in-Sri-Lanka/108-338680",
+    "date": "2026-04-25",
+    "scam_type": "impersonation_official",
+    "summary_en": "The Department for Registration of Persons warned that a group was using its name and official-looking phone numbers to collect personal and financial information.",
+    "red_flags": [
+      "caller claiming to be a government department and asking for personal or bank details"
+    ],
+    "advice_en": "Rely only on verified sources and do not share personal or banking details with callers."
+  },
+  {
+    "id": "APK-2026-04-AIRLINE",
+    "source": "Daily Mirror report on Sri Lanka Police warning",
+    "url": "https://www.dailymirror.lk/breaking-news/Surge-in-scams-raises-alarm-over-financial-fraud-and-data-theft-in-Sri-Lanka/108-338680",
+    "date": "2026-04-25",
+    "scam_type": "otp_account_takeover",
+    "summary_en": "Police warned that scammers posing as SriLankan Airlines contacted people on WhatsApp and got them to install a malicious app file named Sri Lankan.apk.",
+    "red_flags": [
+      ".apk file sent on WhatsApp",
+      "message claiming to be from a well-known company"
+    ],
+    "advice_en": "Install apps only from official app stores."
+  },
+  {
+    "id": "POL-2026-04-APK",
+    "source": "Ada Derana Biz report on Sri Lanka Police warning",
+    "url": "https://bizenglish.adaderana.lk/police-warn-of-new-digital-scam-targeting-bank-accounts-via-apk-files/",
+    "date": "2026-04-24",
+    "scam_type": "otp_account_takeover",
+    "summary_en": "Police warned of .apk files sent on WhatsApp and Telegram disguised as wedding invitations, electricity bills or prize notices. Once opened they install malware that can control the screen and read SMS, letting criminals intercept bank OTPs.",
+    "red_flags": [
+      ".apk file disguised as an invitation, bill or prize notice",
+      "file from a known contact asking you to install it"
+    ],
+    "advice_en": "Do not open .apk files, install apps only from Google Play or the App Store, turn off Install unknown apps, and secure your bank account immediately if affected."
+  },
+  {
+    "id": "SLBA-2024-05-MALWARE",
+    "source": "NewsFirst report on Sri Lanka Banks' Association, LankaPay and FinCSIRT warning",
+    "url": "https://www.newsfirst.lk/2024/05/05/sri-lanka-banks-lanka-pay-sound-alarm-on-escalating-online-scams",
+    "date": "2024-05-05",
+    "scam_type": "otp_account_takeover",
+    "summary_en": "The Sri Lanka Banks' Association, LankaPay and FinCSIRT warned that fake offers lure people into installing malicious apps that give fraudsters complete access to the phone.",
+    "red_flags": [
+      "offer that asks you to install an app",
+      "app from outside the official app store"
+    ],
+    "advice_en": "Do not install apps from links in messages."
+  },
+  {
+    "id": "POL-2026-07-IMPERSONATION",
+    "source": "Hiru News report on Sri Lanka Police Headquarters warning",
+    "url": "https://hirunews.lk/goldfmnews/479091/police-warn-public-against-social-media-financial-scams-involving-police-imagery",
+    "date": "2026-07-23",
+    "scam_type": "impersonation_official",
+    "summary_en": "Organised groups use photos of police officers on WhatsApp and Telegram, or call claiming to be from CBSL, the CID or a police unit, and demand money. Police, the CID and CBSL never investigate through personal WhatsApp numbers or ask for deposits into bank accounts, and police never charge for investigations.",
+    "red_flags": [
+      "caller claims to be police, CID or Central Bank",
+      "threat of investigation or arrest",
+      "request to deposit money into an account"
+    ],
+    "advice_en": "Do not pay. Report it to the nearest police station or call Police emergency 119. If you already shared money or account details, call your bank at once and report to Sri Lanka CERT on 101."
+  },
+  {
+    "id": "POL-2025-10-LOAN",
+    "source": "Sri Lanka Police",
+    "url": "https://www.police.lk/?p=15958",
+    "date": "2025-10-16",
+    "scam_type": "loan_app",
+    "summary_en": "A joint inquiry by Police and CBSL found that many lenders advertising instant loans online or by phone are not regulated by CBSL. Borrowers face extremely high interest and aggressive recovery practices.",
+    "red_flags": [
+      "instant loan with no collateral",
+      "unsolicited loan call",
+      "lender not regulated by CBSL"
+    ],
+    "advice_en": "Obtain loans only from institutions regulated by CBSL."
+  },
+  {
+    "id": "CAA-2026-07-LOAN",
+    "source": "Hiru News report on Consumer Affairs Authority warning",
+    "url": "https://hirunews.lk/goldfmnews/478011/caa-sounds-alarm-on-online-loan-fraud",
+    "date": "2026-07-17",
+    "scam_type": "loan_app",
+    "summary_en": "The Consumer Affairs Authority warned that apps offering instant loans in five minutes with no documents deduct hidden charges, charge unfair interest, and use personal data on the phone to threaten and blackmail borrowers.",
+    "red_flags": [
+      "loan app asking for access to contacts or photos",
+      "loan within minutes with no documents or guarantor"
+    ],
+    "advice_en": "Borrow only from CBSL-approved institutions, avoid unknown loan apps, and report to the police or the Cyber Crime Investigation Division."
+  },
+  {
+    "id": "CERT-2026-05-EXTORTION",
+    "source": "NewsFirst report on Sri Lanka CERT warning",
+    "url": "https://english.newsfirst.lk/2026/05/05/cert-issues-urgent-warning-over-whatsapp-video-call-extortion-fraud",
+    "date": "2026-05-05",
+    "scam_type": "extortion",
+    "summary_en": "Sri Lanka CERT warned of WhatsApp video-call extortion: scammers record a compromising call and demand money, often into a foreign bank account, threatening to share the video with the victim's friends.",
+    "red_flags": [
+      "video call from an unknown person",
+      "threat to share a private video unless paid"
+    ],
+    "advice_en": "Do not pay. Report immediately to the nearest police station."
+  },
+  {
+    "id": "CERT-REPORT",
+    "source": "Sri Lanka CERT",
+    "url": "https://cert.gov.lk/report_incident",
+    "date": "accessed 2026-10-14",
+    "scam_type": "all",
+    "summary_en": "Sri Lanka CERT runs hotline 101 and an online incident-reporting portal with live chat. Financial fraud and social media scams must be reported through the portal, not CERT's general email.",
+    "red_flags": [],
+    "advice_en": "If money is lost or at risk, contact your bank immediately, then report through CERT hotline 101 or the CERT portal."
+  },
+  {
+    "id": "CERT-2026-05-TRAFFIC-FINE",
+    "source": "Ada Derana report on Sri Lanka CERT warning",
+    "url": "https://www.adaderana.lk/news/123052/sri-lanka-cert-issues-public-warning-over-fake-traffic-fine-sms-and-whatsapp-scam",
+    "date": "2026-05-28",
+    "scam_type": "impersonation_official",
+    "summary_en": "Sri Lanka CERT warned of SMS and WhatsApp messages from fake numbers that impersonate Sri Lanka Police and claim a roadside CCTV camera caught a traffic offence. A link leads to a fake copy of the government GovPay site that steals card details, OTPs and National Identity Card information.",
+    "red_flags": [
+      "traffic fine notice sent by SMS or WhatsApp",
+      "link to a GovPay look-alike payment page",
+      "request for card details, OTP or NIC number"
+    ],
+    "advice_en": "Pay a traffic fine on GovPay only after a police officer has issued an official fine sheet. Do not pay through links in messages."
+  },
+  {
+    "id": "WBB-2026-07-ASWESUMA",
+    "source": "Newswire report on Welfare Benefits Board warning",
+    "url": "https://www.newswire.lk/2026/07/17/welfare-benefits-board-warns-of-fraudulent-calls-targeting-aswesuma-beneficiaries/",
+    "date": "2026-07-17",
+    "scam_type": "impersonation_official",
+    "summary_en": "Callers posing as officials of the Welfare Benefits Board main office phone Aswesuma beneficiaries, ask for personal information for so-called official reasons and then demand money. The Board says all Aswesuma services are free and it never charges money.",
+    "red_flags": [
+      "call claiming to be from the Aswesuma or Welfare Benefits Board office",
+      "request for personal or bank details",
+      "any fee for a welfare payment"
+    ],
+    "advice_en": "Do not give details or money. Report the call to your Divisional Secretariat or the police."
+  },
+  {
+    "id": "TRCSL-2025-01-AID",
+    "source": "Ada Derana report on TRCSL warning",
+    "url": "https://adaderana.lk/news/104819/trcsl-warns-public-over-fraudulent-text-messages",
+    "date": "2025-01-08",
+    "scam_type": "impersonation_official",
+    "summary_en": "The Telecommunications Regulatory Commission warned of messages claiming the President will give Rs. 50,000 in assistance to poor families. The links collect personal details that can give outsiders access to bank accounts. TRCSL blocked the links it found.",
+    "red_flags": [
+      "government cash aid offered by SMS or social media",
+      "link asking for personal or bank details"
+    ],
+    "advice_en": "Do not click such links. Check government assistance only through official offices."
+  },
+  {
+    "id": "CERT-2025-01-SMS",
+    "source": "Ada Derana report on Sri Lanka CERT warning",
+    "url": "https://adaderana.lk/news/105027/sri-lanka-cert-alerts-on-spike-in-scams-through-sms-and-phone-calls",
+    "date": "2025-01-17",
+    "scam_type": "all",
+    "summary_en": "Sri Lanka CERT reported a spike in SMS and phone-call scams offering prizes or rewards, discounts, work-from-home jobs and overseas jobs, which aim to collect personal information.",
+    "red_flags": [
+      "unexpected prize, discount or job offer by SMS or call",
+      "request for personal information"
+    ],
+    "advice_en": "Do not share personal information through unexpected SMS messages or calls."
+  }
+]

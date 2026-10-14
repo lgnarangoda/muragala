@@ -1,0 +1,73 @@
+Singlish: Sir oyage parcel eka customs eke. Rs 4,500 ewanna me link eken ada ma. http://example.com/pay
+Sinhala: සර් ඔයාගේ parcel එක customs එකේ. රු. 4,500 මේ link එකෙන් අදම එවන්න.
+Type: parcel_customs_fee
+
+Singlish: Sri Lanka Post: oyage pack eka deliver karanna ba address eka waradi. Rs 75 gewala details update karanna http://example.com/post
+Sinhala: ශ්‍රී ලංකා තැපෑල: ඔයාගේ පැකේජය deliver කරන්න බෑ, ලිපිනය වැරදියි. රු. 75ක් ගෙවලා විස්තර update කරන්න.
+Type: parcel_customs_fee
+
+Singlish: Hi dear, mama UK idan oyata gift parcel ekak ewwa. Customs officer kiyanawa clearance ekata Rs 65,000 ona kiyala. Oya eka damoth parcel eka ada ma enawa.
+Sinhala: හායි dear, මම UK ඉඳන් ඔයාට gift parcel එකක් එව්වා. Customs officer කියනවා clearance එකට රු. 65,000ක් ඕනේ කියලා. ඔයා ඒක දැම්මොත් parcel එක අදම එනවා.
+Type: romance
+
+Singlish: Dawasakata 5% profit guarantee! Rs 25,000 invest karala ape Telegram group ekata join wenna. Yaluwanta add karoth bonus ekak. Kawuruwath kiyanna epa.
+Sinhala: දවසකට 5% ලාභය සහතිකයි! රු. 25,000ක් ආයෝජනය කරලා අපේ Telegram group එකට join වෙන්න. යාළුවන්ව add කළොත් bonus එකක්. කාටවත් කියන්න එපා.
+Type: fake_investment_pyramid
+
+Singlish: Central Bank Governor recommend karana aluth trading platform eka. Rs 50,000 dammoth masa ekakin Rs 5 lakshayak. Me video eka balala link eken register wenna.
+Sinhala: මහ බැංකු අධිපතිතුමා නිර්දේශ කරන අලුත් trading platform එක. රු. 50,000ක් දැම්මොත් මාසයකින් රු. ලක්ෂ 5ක්. මේ video එක බලලා link එකෙන් register වෙන්න.
+Type: fake_investment_pyramid
+
+Singlish: Part time job! YouTube videos like karala dawasakata Rs 8,000k hoyanna. Patan ganna registration fee eka Rs 2,500 witharai. WhatsApp karanna.
+Sinhala: Part time job! YouTube videos like කරලා දවසකට රු. 8,000ක් හොයන්න. පටන් ගන්න registration fee එක රු. 2,500ක් විතරයි. WhatsApp කරන්න.
+Type: job_task
+
+Singlish: Task eka complete karala commission eka ganna nam kalin Rs 15,000 deposit karanna ona. Eka system eke rule eka. Ada ma karoth Rs 22,000 return.
+Sinhala: Task එක complete කරලා commission එක ගන්න නම් කලින් රු. 15,000ක් deposit කරන්න ඕනේ. ඒක system එකේ rule එක. අදම කළොත් රු. 22,000ක් return.
+Type: job_task
+
+Singlish: Mama CID eken. Oyage bank account eka money laundering case ekakata sambandai. Arrest nowi inna nam ada ma Rs 1,50,000 me account ekata danna. Me gana kawuruwath ekka kathaa karanna epa.
+Sinhala: මම CID එකෙන්. ඔයාගේ bank account එක money laundering නඩුවකට සම්බන්ධයි. අත්අඩංගුවට පත් නොවී ඉන්න නම් අදම රු. 1,50,000ක් මේ account එකට දාන්න. මේ ගැන කාත් එක්කවත් කතා කරන්න එපා.
+Type: impersonation_official
+
+Singlish: Police traffic fine: oyage vehicle eka speed limit eka paraddala. Rs 3,000 fine eka paya 24 athulatha me link eken gewanna. http://example.com/govpay
+Sinhala: පොලිස් රථවාහන දඩය: ඔයාගේ වාහනය වේග සීමාව ඉක්මවලා. රු. 3,000 දඩය පැය 24ක් ඇතුළත මේ link එකෙන් ගෙවන්න.
+Type: impersonation_official
+
+Singlish: Mama bank eken call karanne. Oyage card eka block wela. Unblock karanna phone ekata awa OTP eka mata kiyanna.
+Sinhala: මම බැංකුවෙන් call කරන්නේ. ඔයාගේ card එක block වෙලා. Unblock කරන්න phone එකට ආපු OTP එක මට කියන්න.
+Type: otp_account_takeover
+
+Singlish: Machan mama aluth number ekak. Hadissiyak, Rs 20,000k me account ekata danna puluwanda? Heta ma denna. Call karanna epa, meeting ekaka.
+Sinhala: මචං මම අලුත් number එකක්. හදිස්සියක්, රු. 20,000ක් මේ account එකට දාන්න පුළුවන්ද? හෙට ම දෙන්නම්. Call කරන්න එපා, meeting එකක.
+Type: otp_account_takeover
+
+Singlish: Wedding invitation eka attach kala. Open karala balanna. invitation.apk
+Sinhala: Wedding invitation එක attach කළා. Open කරලා බලන්න. invitation.apk
+Type: otp_account_takeover
+
+Singlish: Documents nathuwa minute 5en loan! Rs 1 lakshaya dakwa. Processing fee Rs 3,500 kalin danna, salli ada ma account ekata.
+Sinhala: Documents නැතුව විනාඩි 5න් loan! රු. ලක්ෂ 1ක් දක්වා. Processing fee රු. 3,500ක් කලින් දාන්න, සල්ලි අදම account එකට.
+Type: loan_app
+
+Singlish: Suba pathanawa! Oya Rs 25 lakshayaka lottery eka dinala. Prize eka ganna tax eka Rs 18,000 kalin gewanna. Prize officer: 07X XXX XXXX
+Sinhala: සුබ පතනවා! ඔයා රු. ලක්ෂ 25ක lottery එක දිනලා. Prize එක ගන්න tax එක රු. 18,000ක් කලින් ගෙවන්න.
+Type: lottery_prize
+
+Singlish: iPhone 16 Pro Rs 85,000ta witharai, stock limited. Cash on delivery na, bank transfer witharai. Advance eka dammoth heta deliver karanawa.
+Sinhala: iPhone 16 Pro රු. 85,000කට විතරයි, stock සීමිතයි. Cash on delivery නෑ, bank transfer විතරයි. Advance එක දැම්මොත් හෙට deliver කරනවා.
+Type: fake_online_shop
+
+--- Hard negatives (legitimate, label not_scam) ---
+
+Singlish: Amma, mama ada gedara enawa. Bus ekata salli ewanna puluwanda? Mama call karannam.
+Sinhala: අම්මා, මම අද ගෙදර එනවා. Bus එකට සල්ලි එවන්න පුළුවන්ද? මම call කරන්නම්.
+Type: not_scam
+
+Singlish: Your account was debited LKR 1,250.00 at a supermarket. If this was not you, call the number on the back of your card.
+Sinhala: ඔබේ ගිණුමෙන් සුපිරි වෙළඳසැලක රු. 1,250.00ක් අඩු විය. මෙය ඔබ නොකළේ නම් card එකේ පිටුපස ඇති අංකයට අමතන්න.
+Type: not_scam
+
+Singlish: Ayubowan! Oyage electricity bill eka Rs 4,320. Official app eken hari bank eken hari gewanna puluwan.
+Sinhala: ආයුබෝවන්! ඔබේ විදුලි බිල රු. 4,320යි. නිල app එකෙන් හෝ බැංකුවෙන් ගෙවිය හැක.
+Type: not_scam
