@@ -1,0 +1,8 @@
+google-adk
+google-genai
+google-cloud-webrisk
+google-cloud-firestore
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
