@@ -1,7 +1,7 @@
 """Muragala API: POST /check runs the ADK pipeline; GET /v1/scam-context-signal/{id} is the bank-facing signal."""
 import datetime
 import json
-import os
+import unicodedata
 import uuid
 
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
@@ -10,37 +10,26 @@ from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
 from google.genai import types
 
+import store
+from coercion_api import router as coercion_router
 from scam_agent.agent import root_agent
 from scam_agent.corpus import advisory_ids
 
 APP_NAME = "muragala"
 KNOWN_IDS = advisory_ids()
+CHECK_TTL = datetime.timedelta(days=30)  # Firestore TTL deletes verdicts after this
 session_service = InMemorySessionService()
 runner = Runner(agent=root_agent, app_name=APP_NAME, session_service=session_service)
 
-# Firestore on Cloud Run; a simple in-memory store for local testing.
-if os.environ.get("USE_FIRESTORE", "true").lower() == "true":
-    from google.cloud import firestore
-    _db = firestore.Client()
-
-    def save_check(check_id, data):
-        _db.collection("checks").document(check_id).set(data)
-
-    def load_check(check_id):
-        doc = _db.collection("checks").document(check_id).get()
-        return doc.to_dict() if doc.exists else None
-else:
-    _mem = {}
-
-    def save_check(check_id, data):
-        _mem[check_id] = data
-
-    def load_check(check_id):
-        return _mem.get(check_id)
-
-
 app = FastAPI(title="Muragala API")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.include_router(coercion_router)
+
+
+def _only_script(texts, first, last):
+    """True when every letter is ASCII or in the [first, last] Unicode block."""
+    return all(c.isascii() or first <= c <= last
+               for t in texts for c in t if unicodedata.category(c).startswith("L"))
 
 
 def _as_dict(value):
@@ -54,8 +43,8 @@ def _as_dict(value):
         return {"raw": str(value)}
 
 
-@app.get("/healthz")
-def healthz():
+@app.get("/health")  # not /healthz: Cloud Run reserves that path
+def health():
     return {"ok": True}
 
 
@@ -86,11 +75,16 @@ async def check(text: str = Form(""), files: list[UploadFile] | None = File(None
 
     # Hallucination guard: keep only advisory IDs that exist in the corpus.
     result["citations"] = [c for c in result.get("citations", []) if c in KNOWN_IDS]
+    # Gemini sometimes drops a word from another script into the Tamil; the app then shows English.
+    if not _only_script([result.get("explanation_ta", ""), *result.get("actions_ta", [])], "஀", "௿"):
+        result["explanation_ta"], result["actions_ta"] = None, None
 
     check_id = str(uuid.uuid4())
+    now = datetime.datetime.now(datetime.timezone.utc)
     # Only the verdict is stored. The screenshot and message text are never saved.
-    save_check(check_id, {
-        "created": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    store.put("checks", check_id, {
+        "created": now.isoformat(),
+        "expires_at": now + CHECK_TTL,
         "risk_score": result["risk_score"],
         "scam_type": result.get("scam_type", ""),
         "citations": result["citations"],
@@ -101,7 +95,7 @@ async def check(text: str = Form(""), files: list[UploadFile] | None = File(None
 
 @app.get("/v1/scam-context-signal/{check_id}")
 def scam_context_signal(check_id: str):
-    d = load_check(check_id)
+    d = store.get("checks", check_id)
     if not d:
         raise HTTPException(status_code=404, detail="not found")
     score = d["risk_score"]

@@ -83,6 +83,8 @@ class CheckResult(BaseModel):
     explanation_en: str = Field(description="The same explanation in English")
     actions_si: list[str] = Field(description="Next steps in Sinhala, most important first")
     actions_en: list[str] = Field(description="The same steps in English")
+    explanation_ta: str = Field(description="The same explanation in simple Tamil")
+    actions_ta: list[str] = Field(description="The same steps in simple Tamil")
     citations: list[str] = Field(description="Advisory IDs used")
     guardian_message_si: str = Field(description="Short Sinhala note for a family member with a call script")
 
@@ -98,6 +100,10 @@ Extracted data: {intake}
 Rules:
 - Use simple, polite Sinhala. State facts and cite advisory IDs from the
   analysis only. Never give investment advice.
+- Give the same explanation and steps in English and in simple Tamil
+  (explanation_en, actions_en, explanation_ta, actions_ta). Write the Tamil
+  in Tamil script only; words like OTP, link or a company name may stay in
+  English letters.
 - A CBSL list hit with "medium" confidence only means the name looks similar.
   Say the name resembles an entity on the CBSL list; never say it is on the
   list, banned or prohibited. Only a "high" confidence hit is on the list.
