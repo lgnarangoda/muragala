@@ -12,6 +12,7 @@ Built for the Google Cloud AI Builder Cup 2026.
 |---|---|
 | Live app (PWA) | https://shield-511516.web.app |
 | Mock bank page | https://shield-511516.web.app/bank |
+| Coercion Shield demo (simulated phone, family member, ATM) | https://shield-511516.web.app/phone · [/guardian](https://shield-511516.web.app/guardian) · [/atm](https://shield-511516.web.app/atm) |
 | API and interactive docs | https://muragala-api-2661775609.asia-south1.run.app/docs |
 
 The bank and ATM in this project are **mocks**. No bank partnership is claimed.
@@ -154,7 +155,7 @@ backend/
   store.py             Firestore or in-memory storage
   data/                advisories, CBSL entities, Singlish examples
   tests/               Coercion Shield scenarios
-frontend/              React + Vite PWA (/ and /bank)
+frontend/              React + Vite PWA (/, /bank, and /phone, /guardian, /atm for the Coercion Shield demo)
 eval/                  eval set, runner and results
 infra/budget-guard/    billing kill switch
 ```
@@ -162,8 +163,8 @@ infra/budget-guard/    billing kill switch
 ## Limitations
 
 - A message check takes about 20 seconds (four Gemini calls in sequence).
-- The Android companion app is in progress; phone events can be sent through the API docs page.
-- The bank and ATM are mocks, and there are no separate guardian or ATM screens yet; the co-sign flow is shown through `/docs`.
+- The Android companion app is in progress. The `/phone` page simulates the phone events (call started, code arrived) with buttons; they can also be sent through `/docs`.
+- The bank and ATM are mocks. The simulated phone, family member and ATM pages pass the demo token and the alert to each other through the browser's local storage, standing in for push notifications; every score and co-sign decision comes from the live API.
 - The interface labels are in Sinhala and English; Tamil covers the answers, risk levels and key labels.
 - The advisory corpus is hand-collected and needs regular updates.
 

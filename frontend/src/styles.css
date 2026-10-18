@@ -150,6 +150,12 @@ textarea:focus, input:focus { outline: 3px solid color-mix(in srgb, var(--brand)
 .check input { width: 22px; height: 22px; }
 .warn { background: color-mix(in srgb, var(--high) 12%, var(--card)); border-left: 4px solid var(--high); padding: 10px 12px; border-radius: 8px; }
 .hold { color: var(--high); }
+.ok { color: var(--low); font-weight: 600; }
+.big { font-size: 1.25rem; line-height: 1.5; margin: 0 0 8px; }
+.sub { display: block; font-size: 0.85rem; font-weight: 400; opacity: 0.85; }
+.call { text-align: center; padding: 4px 0; }
+.call p { margin: 2px 0; }
+.caller { font-size: 1.6rem; font-weight: 700; letter-spacing: 0.04em; }
 
 footer { text-align: center; font-size: 0.9rem; }
 footer a { color: var(--brand); }

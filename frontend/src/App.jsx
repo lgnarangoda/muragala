@@ -200,6 +200,7 @@ export default function App() {
 
       <footer>
         <a href="/bank">{t('Demo bank එක බලන්න', 'Open the demo bank')}</a>
+        {' · '}<a href="/phone">Coercion Shield demo</a>
       </footer>
     </div>
   );
