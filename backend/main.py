@@ -49,11 +49,12 @@ def health():
 
 
 @app.post("/check")
-async def check(text: str = Form(""), files: list[UploadFile] | None = File(None)):
+async def check(text: str = Form(""), files: list[UploadFile | str] | None = File(None)):
     parts = []
     if text.strip():
         parts.append(types.Part(text=text))
-    for f in files or []:
+    # Swagger UI on /docs sends "files" as a text part even with no file chosen; skip it.
+    for f in [f for f in files or [] if not isinstance(f, str)]:
         data = await f.read()
         if data:
             parts.append(types.Part.from_bytes(data=data, mime_type=f.content_type or "application/octet-stream"))
